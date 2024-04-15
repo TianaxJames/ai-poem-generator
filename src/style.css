@@ -1,4 +1,60 @@
 body {
   background: beige;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 60px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
   text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+form {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 30px;
+}
+.prompt {
+  padding: 16px;
+  font-size: 20px;
+  width: 80%;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  border-radius: 45px;
+  color: #272044;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: rgb(239, 192, 72);
+  color: white;
+  border: none;
+  border-radius: 45px;
+  padding: 14px 22px;
+  font-size: 16px;
+  width: 150px;
+}
+.poem {
+  background-color: white;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 2;
+  border-left: 3px solid rgb(239, 192, 72);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  border-top: 1px solid rgb(224, 237, 245);
+  padding: 30px 0 0 0;
 }
