@@ -16,13 +16,18 @@
         </header>
         
         <main>
-            <form id="poem-form">
-                <input type="text" placeholder="Enter a poem topic" autofocus required class="prompt" id="prompt"/>
-                <input type="submit" class="submit-button"/>
-                
-            </form>
-            <div class="poem" id="poem">                
+            <div class="form-container">
 
+                <form id="poem-form">
+                    <input type="text" placeholder="Enter a poem topic" autofocus required class="prompt" id="prompt"/>
+                    <input type="submit" class="submit-button"/>
+                    
+                </form>
+                <div class="form-hint">
+ie. Flowers, Love, Pizza etc.
+                </div>
+                <div class="poem hidden" id="poem">                
+                </div>
             </div>
         </main>
         
