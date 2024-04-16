@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="src/style.css"></link>
     <title>Poem Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,15 +15,13 @@
         </header>
         
         <main>
-            <form>
+            <form id="poem-form">
                 <input type="text" placeholder="Enter a poem topic" autofocus required class="prompt"/>
                 <input type="submit" class="submit-button"/>
                 
             </form>
-            <div class="poem">
-                roses are red
-                <br/>
-                violets are blue
+            <div class="poem" id="poem">                
+
             </div>
         </main>
         
