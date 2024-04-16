@@ -6,6 +6,7 @@
      <link rel="stylesheet" href="src/style.css"></link>
     <title>Poem Generator</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -16,7 +17,7 @@
         
         <main>
             <form id="poem-form">
-                <input type="text" placeholder="Enter a poem topic" autofocus required class="prompt"/>
+                <input type="text" placeholder="Enter a poem topic" autofocus required class="prompt" id="prompt"/>
                 <input type="submit" class="submit-button"/>
                 
             </form>
